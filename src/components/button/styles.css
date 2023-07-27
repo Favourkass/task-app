@@ -1,0 +1,17 @@
+.buttonStyle {
+    background-color: rgba(27, 25, 26, 1);
+    width: 100%;
+    height: 20px;
+    display: flex; /* Make it a flex container */
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+    padding:10px;
+    border-radius: 10px;
+  }
+  
+  .buttonText {
+    /* The text will be centered horizontally within the flex container */
+    text-align: center;
+    color: rgba(255, 200, 15, 1);
+    font-weight: bold;
+  }
